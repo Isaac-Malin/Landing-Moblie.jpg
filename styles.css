@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Boogaloo&display=swap");
+* {
+  margin: 40px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container1 {
+  display: flex;
+  color: #394167;
+  align-items: center;
+  font-size: 50px;
+  font-family: "Boogaloo";
+}
+
+#container2 {
+  font-family: "Boogaloo";
+  color: #89cff0;
+  font-size: 40px;
+  text-align: center;
+  width: 50%;
+}
+
+.button {
+  width: 170px;
+  display: flex;
+  border: 1px solid #394167;
+  border-radius: 5px;
+  font-size: 30px;
+  background-color: #394167;
+  color: #fafafa;
+  text-decoration: none;
+}
+
+#Phone-pic {
+  align-self: right;
+}/*# sourceMappingURL=styles.css.map */

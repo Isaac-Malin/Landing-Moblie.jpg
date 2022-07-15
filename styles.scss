@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+
+$font-body: "Boogaloo";
+
+$color-primary: #394167;
+$color-secondary: #89cff0;
+$color-white: #fafafa;
+
+* {
+    margin: 40px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container1 {
+    display: flex;
+    color: $color-primary;
+    align-items: center;
+    font-size: 50px;
+    font-family: $font-body;
+}
+
+#container2 {
+    font-family: $font-body;
+    color: $color-secondary;
+    font-size: 40px;
+    text-align: center;
+    width: 50%;
+}
+
+.button {
+    width: 170px;
+    display: flex;
+    border: 1px solid $color-primary;
+    border-radius: 5px;
+    font-size: 30px;
+    background-color: $color-primary;
+    color: $color-white;
+    text-decoration: none;
+}
+
+#Phone-pic {
+    align-self: right;
+}
