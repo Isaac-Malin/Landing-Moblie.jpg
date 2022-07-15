@@ -1,31 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,300&family=Nunito:wght@800&display=swap');
 
 $font-body: "Boogaloo";
+$font-display: "IBM Plex Sans";
+$font-display1: "Nunito";
 
 $color-primary: #394167;
-$color-secondary: #89cff0;
+$color-secondary: #2eb5f3;
 $color-white: #fafafa;
 
 * {
     margin: 40px;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    background-color: #ffffff;
 }
 
-#container1 {
+.container1 {
     display: flex;
-    color: $color-primary;
     align-items: center;
     font-size: 50px;
     font-family: $font-body;
+    color: $color-primary;
+
+    a {
+        display: flex;
+        border: 2px solid $color-primary;
+        background-color: #fafafa;
+        border-radius: 5px;
+        color: $color-primary;
+        font-family: $font-display;
+        font-size: 30px;
+        height: 9vh;
+        width: 15vh;
+        font-weight: 900;
+        align-items: center;
+        text-indent: 40%;
+    }
+}
+
+.logo {
+    border: 1px soild red;
 }
 
 #container2 {
-    font-family: $font-body;
+    font-family: $font-display1;
     color: $color-secondary;
-    font-size: 40px;
+    font-size: 25px;
     text-align: center;
-    width: 50%;
+    width: 40%;
+}
+
+#container3 {
+   font-family: $font-display;
+   font-size: 30px;
+   color: $color-primary;
+   width: 70%;
+   text-align: center;
+   
+   h3 {
+    font-size: 35px;
+    color: $color-secondary;
+   }
+
+   h4 {
+    font-weight: 200;
+   }
 }
 
 .button {
@@ -39,6 +79,25 @@ $color-white: #fafafa;
     text-decoration: none;
 }
 
-#Phone-pic {
-    align-self: right;
+nav {
+    border: 2px solid red;
+    color: $color-primary;
+    vertical-align: middle;
+    align-content: center;
+}
+
+.card {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.card_image {
+    width: 50%;
+}
+
+.penguin-card {
+    border: 1px solid red;
+
+    
 }
